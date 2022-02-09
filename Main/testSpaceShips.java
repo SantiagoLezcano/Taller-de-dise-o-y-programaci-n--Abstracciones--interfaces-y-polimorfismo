@@ -79,8 +79,6 @@ public class testSpaceShips {
                                             } while (opEfficiencyPower != 3);
                                         }
                                     } while (opShipSelect != 5);
-
-
                                 }else if(opShip==2){
                                     US.createUnmannesspacecraft();
                                     int sizeList = US.getUnmannesspacecraft().size();
